@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="Test_code.Test_01">
+        <methods>
+          <include name="code1"/>
+        </methods>
+      </class> <!-- Test_code.Test_01 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="Test_code.Test_01">
+        <methods>
+          <include name="code1"/>
+        </methods>
+      </class> <!-- Test_code.Test_01 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="Test_code.Test_01">
+        <methods>
+          <include name="code1"/>
+        </methods>
+      </class> <!-- Test_code.Test_01 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="Test_code.Test_01">
+        <methods>
+          <include name="code1"/>
+        </methods>
+      </class> <!-- Test_code.Test_01 -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test5(failed)">
+    <classes>
+      <class name="Test_code.Test_01">
+        <methods>
+          <include name="code1"/>
+        </methods>
+      </class> <!-- Test_code.Test_01 -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
